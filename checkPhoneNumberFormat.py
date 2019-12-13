@@ -17,8 +17,8 @@ phoneNumber = mbo.getMboValue("PHONE").getString()
 
 if  phoneNumber != None and phoneNumber != '':
     phoneNumberPattern = '^(?:0?5[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9])$'
-    pattern = Pattern.compile(phoneNumberPattern);
-    matcher = pattern.matcher(phoneNumber);
+    pattern = Pattern.compile(phoneNumberPattern)
+    matcher = pattern.matcher(phoneNumber)
     if(matcher.find()):
 	    a = 1
     else:
