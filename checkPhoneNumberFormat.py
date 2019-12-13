@@ -22,4 +22,5 @@ if  phoneNumber != None and phoneNumber != '':
     if(matcher.find()):
 	    a = 1
     else:
+	#there is an error group in maximo here we are using 'phoneNumberCheck' as an error.
         setError(phoneNumber,"mygroup","phoneNumberCheck")
